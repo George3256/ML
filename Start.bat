@@ -1,0 +1,1 @@
+scrapy runspider test.py > 1.txt
