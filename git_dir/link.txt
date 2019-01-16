@@ -1,0 +1,2 @@
+https://github.com/ageron/handson-ml
+https://github.com/amueller/introduction_to_ml_with_python
