@@ -1,3 +1,5 @@
+import datetime
+
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -86,18 +88,18 @@ for item in list_match:
 
 
 
-i = 0
-while i != data_match.__len__():
-    print(data_match[i] + '|||' + list_hosts[i] + '  время' + list_hosts_time[i] + '  ' + list_score[i] + '  ' +
-          list_guests[i] + '  время' + list_guests_time[i])
-    i += 1
+# i = 0
+# while i != data_match.__len__():
+#     print(data_match[i] + '|||' + list_hosts[i] + '  время' + list_hosts_time[i] + '  ' + list_score[i] + '  ' +
+#           list_guests[i] + '  время' + list_guests_time[i])
+#     i += 1
 
 
-list_hat = "Дата матча", "Хозяева", "Время забитых шайб(Х)", "Счет в матче", "Гости", "Время забитых шайб(Г)"
+# list_hat = "Date", "Хозяева", "Время забитых шайб(Х)", "Счет в матче", "Гости", "Время забитых шайб(Г)"
 
-
+time = datetime.datetime.now()
 frame = pd.DataFrame([data_match, list_hosts, list_hosts_time, list_score, list_guests, list_guests_time]) # собираем фрейм
-frame.to_csv('my_csv_export.csv',sep=',', decimal=';',index=False) #экспортируем в файл
+frame.to_csv('my_csv_export_{}_{}_{}'.format(time.year, time.month, time.day), sep=',', decimal=';', index=False) #экспортируем в файл
 
 
 # for item in artist_name_list:
