@@ -1,3 +1,5 @@
+import datetime
+
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -108,10 +110,9 @@ raw_data = {
         'Гости': list_guests,
         'Время Г': list_guests_time}
 df = pd.DataFrame(raw_data, columns=['DataTime', 'Хозяева', 'Время Х', 'Гости', 'Время Г'])
-#df
-
+time = datetime.datetime.now()
 # frame = pd.DataFrame(list_hosts, list_hosts_time, list_score, list_guests, list_guests_time) # собираем фрейм
-df.to_csv('my_csv_export.csv', sep=',', decimal=';', index=False) #экспортируем в файл
+df.to_csv('my_csv_export_{}_{}_{}'.format(time.year, time.month, time.day), sep=',', decimal=';', index=False) #экспортируем в файл
 
 
 # for item in artist_name_list:
