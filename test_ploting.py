@@ -1,29 +1,31 @@
 import os
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 filename = os.path.join("datasets", "hockey", "new_hockey_2019_01_18.csv")
 def load_hockey_data(filename):
     return pd.read_csv(filename, sep=',', encoding='utf-8')
 
 hockey = load_hockey_data(filename)
-
+data = None
 def plot_statistic_hosts(comand, column):
-    import matplotlib.pyplot as plt
+    global data
     filepath = os.path.join("plotting", "Комманда_{}   Период_{}.png". format(comand, column))
     data = hockey[["DataTime", column]].where(hockey["Hosts"] == comand).dropna()
     plt.figure(figsize=(30, 5))
     plt.plot(data["DataTime"], data[column])
     plt.savefig(filepath)
+    plt.close()
     # plt.show()
 
 def plot_statistic_guests(comand, column):
-    import matplotlib.pyplot as plt
+    global data
     filepath = os.path.join("plotting", "Комманда_{}   Период_{}.png". format(comand, column))
     data = hockey[["DataTime", column]].where(hockey["Guests"] == comand).dropna()
     plt.figure(figsize=(30,5))
     plt.plot(data["DataTime"], data[column])
     plt.savefig(filepath)
+    plt.close()
     # plt.show()
 
 def plot_statistic(comand):
@@ -37,3 +39,4 @@ def plot_statistic(comand):
 list_name = hockey["Hosts"].unique()
 for name in list_name:
     plot_statistic(name)
+    print(name)
