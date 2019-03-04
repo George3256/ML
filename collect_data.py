@@ -1,4 +1,5 @@
 import datetime
+import os
 
 import requests
 from bs4 import BeautifulSoup
@@ -90,10 +91,6 @@ for item in list_match:
               item.contents[5].contents[0].contents[2].contents[0])
 
 
-
-
-
-
 # i = 0
 # while i != data_match.__len__():
 #     print(data_match[i] + '|||' + list_hosts[i] + '  время' + list_hosts_time[i] + '  ' + list_score[i] + '  ' +
@@ -112,8 +109,6 @@ raw_data = {
 df = pd.DataFrame(raw_data, columns=['DataTime', 'Хозяева', 'Время Х', 'Гости', 'Время Г'])
 time = datetime.datetime.now()
 # frame = pd.DataFrame(list_hosts, list_hosts_time, list_score, list_guests, list_guests_time) # собираем фрейм
-df.to_csv('my_csv_export_{}_{}_{}'.format(time.year, time.month, time.day), sep=',', decimal=';', index=False) #экспортируем в файл
+df_path = os.path.join("datasets","hockey", 'my_csv_export_{}_{}_{}.csv'.format(time.year, time.month, time.day))
+df.to_csv(df_path, sep=',', decimal=';', index=False) #экспортируем в файл
 
-
-# for item in artist_name_list:
-#     print(item.contents.__len__())

@@ -2,381 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1a0cdb-82da-4d60-ae6e-5ffaa8727725" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/collect_and_prepare_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Preliminary_processing_dataset_hokey.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Preliminary_processing_dataset_hokey.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/hockey/my_csv_export_2019_3_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/hockey/my_csv_export_2019_3_1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/hockey/new_hockey_2019_01_18.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/hockey/new_hockey_2019_01_18.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hockey_rating_table.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/hockey_rating_table.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Айлендерс   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Анахайм   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Аризона   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Баффало   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Бостон   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Ванкувер   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вашингтон   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Вегас   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Виннипег   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Даллас   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Детройт   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Калгари   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Каролина   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Коламбус   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Колорадо   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Лос-Анджелес   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Миннесота   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Монреаль   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нью-Джерси   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Нэшвилл   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Оттава   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Питтсбург   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Рейнджерс   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сан-Хосе   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Сент-Луис   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Тампа-Бэй   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Торонто   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Филадельфия   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Флорида   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_CountGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_CountGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_OTGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_OTGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_SSGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_SSGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Чикаго   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_1PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_1PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_1PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_1PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_2PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_2PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_2PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_2PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_3PGuests.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_3PGuests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_3PHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_3PHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_CountHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_CountHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_OTHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_OTHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_SSHosts.png" beforeDir="false" afterPath="$PROJECT_DIR$/plotting/Комманда_Эдмонтон   Период_SSHosts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_ploting.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_ploting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tes.py" beforeDir="false" afterPath="$PROJECT_DIR$/collect_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -384,34 +12,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-75283839">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="50" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="50" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="306">
               <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -423,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
+            <state relative-caret-position="1700">
               <caret line="100" column="118" selection-start-line="100" selection-start-column="118" selection-end-line="101" selection-end-column="129" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -432,23 +38,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_ploting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="251">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tes.py">
+        <entry file="file://$PROJECT_DIR$/collect_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="111" column="91" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="91" />
+            <state relative-caret-position="472">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/collect_and_prepare_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="148" column="28" lean-forward="true" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -459,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rating_table.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="731">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -480,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test pandas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="408">
               <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -518,29 +133,42 @@
         <option value="$PROJECT_DIR$/test pandas.py" />
         <option value="$PROJECT_DIR$/rating_table.py" />
         <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/tes.py" />
         <option value="$PROJECT_DIR$/test_ploting.py" />
+        <option value="$PROJECT_DIR$/tes.py" />
+        <option value="$PROJECT_DIR$/collect_and_prepare_data.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-54" />
     <option name="width" value="1618" />
-    <option name="height" value="878" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -569,7 +197,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_ploting">
+  <component name="RunManager" selected="Python.collect_and_prepare_data">
+    <configuration name="collect_and_prepare_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web_scraping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collect_and_prepare_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rating_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="web_scraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -603,28 +252,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test pandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="web_scraping" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test pandas.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Katirkin\PycharmProjects\ML\collect_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -678,17 +306,17 @@
     <list>
       <item itemvalue="Python.rating_table" />
       <item itemvalue="Python.tes" />
-      <item itemvalue="Python.test pandas" />
       <item itemvalue="Python.test2" />
       <item itemvalue="Python.test_ploting" />
+      <item itemvalue="Python.collect_and_prepare_data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.collect_and_prepare_data" />
         <item itemvalue="Python.test_ploting" />
         <item itemvalue="Python.tes" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.rating_table" />
-        <item itemvalue="Python.test pandas" />
       </list>
     </recent_temporary>
   </component>
@@ -715,29 +343,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-54" y="0" width="1618" height="874" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15862525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15822785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8883014" weight="0.35337242" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.90937895" weight="0.40638003" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88670886" weight="0.3526971" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.90822786" weight="0.40525588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49936628" weight="0.32871014" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11169861" side_tool="true" visible="true" weight="0.35337242" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11329114" side_tool="true" visible="true" weight="0.4047288" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49936628" weight="0.32871014" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,8 +374,8 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tes.py</url>
-          <line>103</line>
+          <url>file://$PROJECT_DIR$/collect_data.py</url>
+          <line>100</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -835,7 +461,7 @@
     <entry file="file://$PROJECT_DIR$/my_csv_export_2019_3_1" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="306">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -845,18 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
+        <state relative-caret-position="1700">
           <caret line="100" column="118" selection-start-line="100" selection-start-column="118" selection-end-line="101" selection-end-column="129" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="111" column="91" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="91" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -865,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rating_table.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="731">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -880,16 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -899,10 +505,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_ploting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="251">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collect_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collect_and_prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="148" column="28" lean-forward="true" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
